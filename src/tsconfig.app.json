@@ -6,6 +6,7 @@
     "baseUrl": "",
     "types": []
   },
+  "include": ["@types/promise.prototype.finally"],
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
