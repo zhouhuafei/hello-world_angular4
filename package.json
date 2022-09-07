@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --hmr --port 8088",
+    "start": "ng serve --port 8088",
+    "start:hmr": "npm start -- --hmr",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
